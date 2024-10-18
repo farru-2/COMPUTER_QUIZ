@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#timer {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #ddd;
+}
